@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Login</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <!-- Bootstrap Librarry -->
+        <link rel='stylesheet' type='text/css' media='screen' href='libs/Bootstrap/css/bootstrap.min.css'>
+        <!-- css -->
+        <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+        <!-- Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fasthand&family=Pacifico&family=Righteous&family=Titillium+Web:wght@200;300;400;600;700&display=swap"
+            rel="stylesheet">
+
+
+    </head>
+
+    <body>
+        <span class="d-none" id="username"></span>
+        <div class="container my-5 text-center">
+            <div class="group m-auto w-75 p-5">
+                <h1>Smart Login System</h1>
+
+                <input id="signupName" class="form-control my-3" placeholder="Enter your name" type="text">
+                <input id="signupEmail" class="form-control my-3" placeholder="Enter your email" type="email">
+
+                <input id="signupPassword" class="form-control my-3" placeholder="Enter  password" type="password">
+                <p id="exist"></p>
+
+                <button onclick=" signUp()" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+                <p class="text-white">You have an account? <a class="text-white" href="index.html">Signin</a></p>
+            </div>
+        </div>
+
+        <!-- Bootstrap Librarry -->
+        <script src='libs/Bootstrap/js/bootstrap.bundle.min.js'></script>
+        <!-- Main Js File -->
+        <script src='js/main.js'></script>
+
+    </body>
+
+</html>

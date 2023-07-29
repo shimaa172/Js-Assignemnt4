@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Login</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <!-- Bootstrap Librarry -->
+        <link rel='stylesheet' type='text/css' media='screen' href='libs/Bootstrap/css/bootstrap.min.css'>
+        <!-- Main Template CSS File -->
+        <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Pacifico&family=Righteous&family=Titillium+Web:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body id="home">
+        <nav class="navbar navbar-expand-lg navbar-dark group">
+            <div class="container">
+                <a class="navbar-brand" href="#">SMART LOGIN</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto">
+
+                            <li class="nav-item ">
+                                <a onclick="logout()" class="btn btn-outline-warning " href="index.html">Logout</a>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+            </div>
+        </nav>
+        <div class="container my-5 text-center h-100 d-flex align-items-center">
+            <div class="group m-auto w-75 p-5">
+                <h1 id="username"></h1>
+            </div>
+        </div>
+
+
+        <!-- Bootstrap Librarry -->
+        <script src='libs/Bootstrap/js/bootstrap.bundle.min.js'></script>
+        <!-- Main Js File -->
+        <script src='js/main.js'></script>
+    </body>
+
+</html>
